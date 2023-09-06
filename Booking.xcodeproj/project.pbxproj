@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D727C5C42AA5AF7900731D15 /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727C5C32AA5AF7800731D15 /* RoomView.swift */; };
+		D727C5C62AA5AFB100731D15 /* HotelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727C5C52AA5AFB100731D15 /* HotelView.swift */; };
+		D727C5C82AA5B53A00731D15 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727C5C72AA5B53A00731D15 /* BookingView.swift */; };
+		D727C5CA2AA5B57500731D15 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727C5C92AA5B57500731D15 /* SuccessView.swift */; };
+		D79A3DB92AA843D3004A4308 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79A3DB82AA843D3004A4308 /* MockData.swift */; };
 		D7BE08C92AA5A3F0008F4C7F /* BookingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BE08C82AA5A3F0008F4C7F /* BookingApp.swift */; };
 		D7BE08CB2AA5A3F0008F4C7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BE08CA2AA5A3F0008F4C7F /* ContentView.swift */; };
 		D7BE08CD2AA5A3F7008F4C7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7BE08CC2AA5A3F7008F4C7F /* Assets.xcassets */; };
@@ -14,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D727C5C32AA5AF7800731D15 /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
+		D727C5C52AA5AFB100731D15 /* HotelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelView.swift; sourceTree = "<group>"; };
+		D727C5C72AA5B53A00731D15 /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
+		D727C5C92AA5B57500731D15 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
+		D79A3DB82AA843D3004A4308 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		D7BE08C52AA5A3F0008F4C7F /* Booking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Booking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7BE08C82AA5A3F0008F4C7F /* BookingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingApp.swift; sourceTree = "<group>"; };
 		D7BE08CA2AA5A3F0008F4C7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,8 +63,13 @@
 			children = (
 				D7BE08C82AA5A3F0008F4C7F /* BookingApp.swift */,
 				D7BE08CA2AA5A3F0008F4C7F /* ContentView.swift */,
+				D727C5C52AA5AFB100731D15 /* HotelView.swift */,
+				D727C5C32AA5AF7800731D15 /* RoomView.swift */,
+				D727C5C72AA5B53A00731D15 /* BookingView.swift */,
+				D727C5C92AA5B57500731D15 /* SuccessView.swift */,
 				D7BE08CC2AA5A3F7008F4C7F /* Assets.xcassets */,
 				D7BE08CE2AA5A3F7008F4C7F /* Preview Content */,
+				D79A3DB82AA843D3004A4308 /* MockData.swift */,
 			);
 			path = Booking;
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D727C5C42AA5AF7900731D15 /* RoomView.swift in Sources */,
+				D727C5C62AA5AFB100731D15 /* HotelView.swift in Sources */,
 				D7BE08CB2AA5A3F0008F4C7F /* ContentView.swift in Sources */,
 				D7BE08C92AA5A3F0008F4C7F /* BookingApp.swift in Sources */,
+				D727C5CA2AA5B57500731D15 /* SuccessView.swift in Sources */,
+				D79A3DB92AA843D3004A4308 /* MockData.swift in Sources */,
+				D727C5C82AA5B53A00731D15 /* BookingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +293,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,8 +322,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
