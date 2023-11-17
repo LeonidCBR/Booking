@@ -21,7 +21,7 @@ struct Hotel {
     let minimalPrice: Int // TODO: JSON - minimal_price
     let priceForIt: String // TODO: JSON price_for_it
     let rating: Int
-    let rating_name: String // TODO: JSON rating_name
+    let ratingName: String // TODO: JSON rating_name
     let imageURLs: [String] // TODO: JSON image_urls
     let description: String
     let peculiarities: [String]
@@ -35,7 +35,7 @@ struct MockData {
         minimalPrice: 134268,
         priceForIt: "За тур с перелётом",
         rating: 5,
-        rating_name: "Превосходно",
+        ratingName: "Превосходно",
         imageURLs: [
             "https://www.atorus.ru/sites/default/files/upload/image/News/56149/Club_Priv%C3%A9_by_Belek_Club_House.jpg",
             "https://deluxe.voyage/useruploads/articles/The_Makadi_Spa_Hotel_02.jpg",
