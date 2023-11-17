@@ -9,7 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationView {
+
+        // TODO: Consider to use NavigationStack
+        NavigationView { // This is deprecated
             HotelView()
         }
     }
