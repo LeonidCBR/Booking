@@ -123,6 +123,7 @@ struct HotelView: View {
     }
 
     func getHotel() {
+        // TODO: fetch data
         self.hotel = MockData.hotel
     }
 }

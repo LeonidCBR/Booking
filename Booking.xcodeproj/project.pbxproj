@@ -55,7 +55,7 @@
 			children = (
 				D7BE08CA2AA5A3F0008F4C7F /* ContentView.swift */,
 				B84C505F2AB83AE400C16307 /* Hotel */,
-				D727C5C32AA5AF7800731D15 /* RoomView.swift */,
+				B87FDED52B0F14800032B633 /* Room */,
 				D727C5C72AA5B53A00731D15 /* BookingView.swift */,
 				D727C5C92AA5B57500731D15 /* SuccessView.swift */,
 			);
@@ -72,6 +72,14 @@
 				B8FC6FFB2B071375003FE1E8 /* AdditionalCell.swift */,
 			);
 			path = Hotel;
+			sourceTree = "<group>";
+		};
+		B87FDED52B0F14800032B633 /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				D727C5C32AA5AF7800731D15 /* RoomView.swift */,
+			);
+			path = Room;
 			sourceTree = "<group>";
 		};
 		D7BE08BC2AA5A3F0008F4C7F = {
